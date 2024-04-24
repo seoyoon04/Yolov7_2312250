@@ -93,7 +93,7 @@ while webcam.isOpened():
         cv2.rectangle(image, (box[0], box[1]), (box[2], box[3]), color, 2)
         cv2.putText(image, name, (box[0], box[1] - 2), cv2.FONT_HERSHEY_SIMPLEX, 0.75, [225, 255, 255], thickness=2)
 
-    print('[INFO] draw all detected boxes...!')
+    print('[INFO] 2312250_kimseoyoon')
 
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
